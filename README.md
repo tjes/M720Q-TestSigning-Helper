@@ -1,4 +1,4 @@
-# TESTSIGNING Helper for M720q/M920q
+# M720q TestSigning Helper
 This repository contains a collection of scripts for preparing and installing test signed NIC drivers on Lenovo M720q's running Server 2022. This can be used for other drivers/versions of Windows with minor modifications.
 
 ## DISCLAIMER
