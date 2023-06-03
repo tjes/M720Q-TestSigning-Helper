@@ -6,8 +6,9 @@ This repository contains a collection of scripts for preparing and installing te
     - Windows Software Development Kit
     - Windows Driver Kit
 - Windows Server 2022 Core/Desktop Edition or similar running on your target system.
-- GitSCM with Git Bash or Cygwin for the `diff` tool.
-- A copy of the latest Intel Ethernet Adapter Complete Driver pack - https://www.intel.com/content/www/us/en/download/15084/intel-ethernet-adapter-complete-driver-pack.html
+- Git-SCM with Git Bash or Cygwin for the `diff` tool.
+- A copy of the latest Intel Ethernet Adapter Complete Driver pack
+    - At time of writing: https://www.intel.com/content/www/us/en/download/15084/intel-ethernet-adapter-complete-driver-pack.html
 
 ## 1. Modifying the Driver
 1. Create the 'driver' folder. This will hold the modified driver.
