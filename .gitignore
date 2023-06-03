@@ -1,2 +1,5 @@
-driver/*
+driver/*.inf
+driver/*.sys
+driver/*.cat
+driver/*.dll
 DriverSigning.cer

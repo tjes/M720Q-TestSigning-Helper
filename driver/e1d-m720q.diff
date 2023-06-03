@@ -1,0 +1,55 @@
+--- e1d.inf	2022-02-22 10:16:58.535104300 -0500
++++ e1d.inf	2023-06-02 16:58:06.000000000 -0400
+@@ -41,16 +41,13 @@
+ DriverVer = 01/30/2022,12.19.2.45
+ 
+ [Manufacturer]
+-%Intel%     = Intel, NTamd64.10.0, NTamd64.10.0.1,  NTamd64.10.0...18362, NTamd64.10.0.1..18362
++%Intel%     = Intel, NTamd64.10.0, NTamd64.10.0.3,  NTamd64.10.0...18362, NTamd64.10.0.1..18362
+ 
+ [ControlFlags]
+-ExcludeFromSelect = \ 
+-    PCI\VEN_8086&DEV_153A,\ 
+-    PCI\VEN_8086&DEV_153B
+ 
+ [Intel]
+ 
+-[Intel.NTamd64.10.0.1]
++[Intel.NTamd64.10.0.3]
+ ; DisplayName                   Section              DeviceID
+ ; -----------                   -------              --------
+ %E153ANC.DeviceDesc%            = E153A.10.0.1,       PCI\VEN_8086&DEV_153A
+@@ -191,6 +188,11 @@
+ %E15BBNC.DeviceDesc%            = E15BB.10.0.1.19H1,       PCI\VEN_8086&DEV_15BB&SUBSYS_00008086
+ %E15BCNC.DeviceDesc%            = E15BC.10.0.1.19H1,       PCI\VEN_8086&DEV_15BC
+ %E15BCNC.DeviceDesc%            = E15BC.10.0.1.19H1,       PCI\VEN_8086&DEV_15BC&SUBSYS_00008086
++%E15BCNC.DeviceDesc%            = E15BC.10.0.1.19H1,       PCI\VEN_8086&DEV_15BC&SUBSYS_00008086
++%E15BCNC.DeviceDesc%            = E15BC.10.0.1.19H1,       PCI\VEN_8086&DEV_15BC&SUBSYS_312D17AA
++%E15BCNC.DeviceDesc%            = E15BC.10.0.1.19H1,       PCI\VEN_8086&DEV_15BC&SUBSYS_312D17AA&REV_10
++%E15BCNC.DeviceDesc%            = E15BC.10.0.1.19H1,       PCI\VEN_8086&DEV_15BC&CC_0200
++%E15BCNC.DeviceDesc%            = E15BC.10.0.1.19H1,       PCI\VEN_8086&DEV_15BC&CC_020000
+ %E15BDNC.DeviceDesc%            = E15BD.10.0.1.19H1,       PCI\VEN_8086&DEV_15BD
+ %E15BDNC.DeviceDesc%            = E15BD.10.0.1.19H1,       PCI\VEN_8086&DEV_15BD&SUBSYS_00008086
+ %E15BENC.DeviceDesc%            = E15BE.10.0.1.19H1,       PCI\VEN_8086&DEV_15BE
+@@ -273,6 +275,10 @@
+ %E15E3NC.DeviceDesc%            = E15E3,       PCI\VEN_8086&DEV_15E3&SUBSYS_00008086
+ %E15BBNC.DeviceDesc%            = E15BB,       PCI\VEN_8086&DEV_15BB
+ %E15BBNC.DeviceDesc%            = E15BB,       PCI\VEN_8086&DEV_15BB&SUBSYS_00008086
++%E15BCNC.DeviceDesc%            = E15BC.10.0.1,       PCI\VEN_8086&DEV_15BC&SUBSYS_312D17AA
++%E15BCNC.DeviceDesc%            = E15BC.10.0.1,       PCI\VEN_8086&DEV_15BC&SUBSYS_312D17AA&REV_10
++%E15BCNC.DeviceDesc%            = E15BC.10.0.1,       PCI\VEN_8086&DEV_15BC&CC_0200
++%E15BCNC.DeviceDesc%            = E15BC.10.0.1,       PCI\VEN_8086&DEV_15BC&CC_020000
+ %E15BDNC.DeviceDesc%            = E15BD,       PCI\VEN_8086&DEV_15BD
+ %E15BDNC.DeviceDesc%            = E15BD,       PCI\VEN_8086&DEV_15BD&SUBSYS_00008086
+ %E15DFNC.DeviceDesc%            = E15DF,       PCI\VEN_8086&DEV_15DF
+@@ -327,6 +333,10 @@
+ %E15E3NC.DeviceDesc%            = E15E3.19H1,       PCI\VEN_8086&DEV_15E3&SUBSYS_00008086
+ %E15BBNC.DeviceDesc%            = E15BB.19H1,       PCI\VEN_8086&DEV_15BB
+ %E15BBNC.DeviceDesc%            = E15BB.19H1,       PCI\VEN_8086&DEV_15BB&SUBSYS_00008086
++%E15BCNC.DeviceDesc%            = E15BC.10.0.1,       PCI\VEN_8086&DEV_15BC&SUBSYS_312D17AA
++%E15BCNC.DeviceDesc%            = E15BC.10.0.1,       PCI\VEN_8086&DEV_15BC&SUBSYS_312D17AA&REV_10
++%E15BCNC.DeviceDesc%            = E15BC.10.0.1,       PCI\VEN_8086&DEV_15BC&CC_0200
++%E15BCNC.DeviceDesc%            = E15BC.10.0.1,       PCI\VEN_8086&DEV_15BC&CC_020000
+ %E15BDNC.DeviceDesc%            = E15BD.19H1,       PCI\VEN_8086&DEV_15BD
+ %E15BDNC.DeviceDesc%            = E15BD.19H1,       PCI\VEN_8086&DEV_15BD&SUBSYS_00008086
+ %E15DFNC.DeviceDesc%            = E15DF.19H1,       PCI\VEN_8086&DEV_15DF
